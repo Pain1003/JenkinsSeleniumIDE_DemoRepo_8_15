@@ -8,19 +8,19 @@ pipeline {
                 git branch: 'main', url: 'https://github.com/Pain1003/JenkinsSeleniumIDE_DemoRepo_8_15'
             }
         }
-        stage('Checkout code') {
+        stage('Set up .Net Core') {
             //install dot net
             
         }
-        stage('Checkout code') {
+        stage('Restore dependencies') {
             //install dependencies
             
         }
-         stage('Checkout code') {
+         stage('Build') {
             //build
 
         }
-         stage('Checkout code') {
+         stage('Run Tests') {
             //run tests
 
         }
