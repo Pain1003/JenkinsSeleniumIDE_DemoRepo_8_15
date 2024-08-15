@@ -10,19 +10,27 @@ pipeline {
         }
         stage('Set up .Net Core') {
             //install dot net
-            
+            steps {
+
+            }
         }
         stage('Restore dependencies') {
             //install dependencies
-            
+            steps {
+                
+            }
         }
          stage('Build') {
             //build
-
+            steps {
+                
+            }
         }
          stage('Run Tests') {
             //run tests
-
+            steps {
+                
+            }
         }
     }
 }
